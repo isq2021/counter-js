@@ -5,6 +5,12 @@ body {
 
 .container {
     margin-top: 200px;
+    box-shadow: rgba(238, 18, 18, 0.25) 0px 54px 55px, rgba(226, 11, 11, 0.12) 0px -12px 30px, rgba(211, 17, 17, 0.12) 0px 4px 6px, rgba(223, 19, 19, 0.17) 0px 12px 13px, rgba(219, 18, 18, 0.09) 0px -3px 5px;
+    ;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgba(149, 151, 14, 0.747);
 }
 
 h1 {
@@ -22,15 +28,18 @@ h1 {
     border-radius: 5px;
     background-color: transparent;
     text-transform: uppercase;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(238, 18, 18, 0.25) 0px 54px 55px, rgba(226, 11, 11, 0.12) 0px -12px 30px, rgba(211, 17, 17, 0.12) 0px 4px 6px, rgba(223, 19, 19, 0.17) 0px 12px 13px, rgba(219, 18, 18, 0.09) 0px -3px 5px;
     ;
     font-size: 15px;
     border: 2px solid black;
+    margin-bottom: 30px;
 }
 
 .btn:hover {
-    background-color: black;
-    color: whitesmoke;
+    padding: 15px 25px;
+    background-color: rgb(6, 79, 82);
+    font-weight: bold;
+    color: rgb(231, 143, 71);
     transition: 0.1s linear;
     border: 1px solid rgb(231, 143, 71);
 }
