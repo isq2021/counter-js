@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: rgb(224, 241, 247);
+}
+
+.container {
+    margin-top: 200px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+#value {
+    font-size: 100px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    ;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+.btn:hover {
+    background-color: black;
+    color: whitesmoke;
+    transition: 0.1s linear;
+    border: 1px solid rgb(231, 143, 71);
+}
